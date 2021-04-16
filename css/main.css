@@ -10,7 +10,7 @@ body {
     color: white;
     background-color: black;
 }
-/*nav style*/
+/* styling navigation bar*/
 .nav { background-color: black;
 position: fixed;
 display: grid;
@@ -62,7 +62,7 @@ ul {
   }
 
 
-/*nav style tablette*/
+/*tyling navigation bar tablette screen size*/
 @media only screen and (min-width: 900px) {
 
 
@@ -86,7 +86,7 @@ ul {
 
 }
 
-/*FOOT style*/
+/*styling FOOTer */
 footer{
     background-color: black;
 position: fixed;
@@ -118,7 +118,7 @@ span{
     transform: translatey(-20px);
     transition: 0.1s; 
   }
-
+/*styling FOOTer for tablett screen size  */
 @media only screen and (min-width: 600px){
 
     .class{
@@ -128,7 +128,7 @@ span{
     } 
 
 }
-
+/*styling FOOTer for desktop screen size */
 @media only screen and (min-width: 900px){
 
     .class{
@@ -139,7 +139,9 @@ span{
 
 }
 
-/*MAINPAGE */
+/*styling MAINPAGE */
+
+/* MAINPAGE banner image for mobile */
 .bannermain{
 
     background-image: url("https://i.ibb.co/ZxXygSf/mobilemain.png");
@@ -149,12 +151,13 @@ span{
 
     
 }
+
 .card{
 
     padding: 10%;
     width: 100%;
     height: 500px;
-    position: auto;
+   
     top: 100px;
     transform: skew(-15deg, 0);
 
@@ -163,6 +166,7 @@ span{
 .rectif{
     transform: skew(15deg, 0);
 }
+
 .foo{
 
     position: fixed;
@@ -197,7 +201,7 @@ h1{
  Background-color: black;
 }
 
-#BLK{
+.blk{
     Background-color: black;
 }
 /*MAINPAGE desktop*/
@@ -221,7 +225,7 @@ h1{
 @media only screen and (min-width: 900px){
 
     .card {height: 600px;
-        position: auto;
+       
         top: 100px;}
         .bannermain{
 
@@ -243,8 +247,8 @@ h1{
 @media only screen and (min-width: 1800px){
 
     .card {height: 650px;
-        position: auto;
-        top: 100px;}
+       
+        top: 80px;}
         .bannermain{
 
             background-image: url("https://i.ibb.co/XthVRKb/desklrgmain.png");
@@ -261,7 +265,7 @@ h1{
 
     
 
-/*CONTACT SHEET*/
+
 
 #scrolln{
 
@@ -269,12 +273,14 @@ h1{
     overflow-y: hidden;
 }
 
+
 .fullpage{
     height: 100%;
     width: 110%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr ;
+    /*CONTACT SHEET IMAGE*/
     background-image: url("https://i.ibb.co/mrpc1Kk/bgimgmobilecont.png");
     
 }
@@ -385,7 +391,7 @@ input {
     grid-column: 2;
 }
 
-/*CONTACT SHEETtablette*/
+/*CONTACT SHEET tablette*/
 @media only screen and (min-width: 600px) {
 
     
@@ -393,6 +399,7 @@ input {
         grid-column: 2 / 6;
         
     }
+    /*CONTACT SHEET tablette IMAGE*/
     .fullpage{
       
         background-image: url("https://i.ibb.co/0FyRNPK/bgimgtablettecont.png");
@@ -402,7 +409,7 @@ input {
     }
 
 }
-/*CONTACT SHEETpc*/
+/*CONTACT SHEETpc */
 @media only screen and (min-width: 900px) {
 
     form {
@@ -441,6 +448,7 @@ input {
 
     }
 
+    /*CONTACT SHEET IMAGE pc */
     .fullpage{
       
         background-image: url("https://i.ibb.co/bWmr1Jp/bgimg900cont.png");
@@ -497,24 +505,26 @@ input {
 
 }
 
-/*Teampage*/
-#col-9{
+/*Teampage MOBILE STYLING*/
+/*spacing Teampage mobile*/
+.col-9{
 
     width: 200px;
 
 }
-#team{
+.team{
 
     padding: 0mm;
-    border: ;
+   
     
 
 }
-#txt{
+.txt{
 
     padding: 5%;
 
 }
+/*spacing Teampage mobile*/
 .col-3{
 
     width: 700px;
@@ -527,13 +537,14 @@ background-image: url("https://i.ibb.co/nwRJ7BF/mobile-team.png");
 
 /*Teampage tablette*/
 @media only screen and (min-width: 700px){
-
+/*spacing Teampage tablette*/
     .col-3{
 
         width: 104px;
 
     }
-    #team{
+    /*sizing element Teampage tablette*/
+    .team{
 
         width: 300px;
         height: 500px;
@@ -545,15 +556,16 @@ background-image: url("https://i.ibb.co/nwRJ7BF/mobile-team.png");
                     background-repeat: no-repeat;
 }
 
-/*Teampage desk*/
+/*STYLING Teampage desktop*/
 @media only screen and (min-width: 900px){
-
+  /*spacing Teampage desktop1*/
     .col-3{
 
         width: 34px;
 
     }
-    #team{
+    /*sizing element Teampage desktop*/
+    .team{
 
         width: 300px;
         height: 500px;
@@ -572,6 +584,7 @@ background-image: url("https://i.ibb.co/nwRJ7BF/mobile-team.png");
 
 @media only screen and (min-width: 1900px){
 
+    /*spacing Teampage desktop2*/
     .col-3{
 
         width: 34px;
@@ -581,8 +594,8 @@ background-image: url("https://i.ibb.co/nwRJ7BF/mobile-team.png");
     .col-4{
         width:1000px
     }
-
-    #team{
+/*sizing element Teampage desktop2*/
+    .team{
 
         width: 500px;
         height: 800px;
@@ -590,6 +603,6 @@ background-image: url("https://i.ibb.co/nwRJ7BF/mobile-team.png");
     }
     .bannerteam{
         background-image: url("https://i.ibb.co/JmWnvMd/pc-team.png");
-                    background-repeat: no-repeat;
+                    background-repeat: no-repeat;}
 }
 }
